@@ -1,0 +1,10 @@
+cat >> .gitignore <<'EOF'
+# backend production ignore
+backend/target/
+backend/*.jar
+backend/config/*.env
+backend/*.log
+backend/*.iml
+.idea/
+.vscode/
+EOF
